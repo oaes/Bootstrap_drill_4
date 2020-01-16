@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drill-2 of bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+<!--------------------------------------- form ------------------------------------------->
+<div class="container">
+<form>
+    <fieldset class="form-group">
+        <legend>Basic Info:</legend>
+        <div>
+            <label class="form-control-label">First Name</label>
+            <input class="form-control" type="text" name="first name" placeholder="your first name">
+        </div>
+        <div>
+            <label class="form-control-label">Last Name</label>
+            <input class="form-control" type="text" name="last name" placeholder="your last name">
+        </div>
+        <small>your surname</small>
+    </fieldset>
+    <fieldset class="form-group">
+        <legend>Contact Info:</legend>
+        <div class="form-group">
+            <label class="form-control-label">Email</label>
+            <input class="form-control" type="email" name="email" placeholder="your email address">
+        </div>
+        <div class="form-group">
+            <label class="form-control-label">Phone</label>
+            <input class="form-control" type="number" name="phone" placeholder="your phone number">
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <legend>Address</legend>
+        <div class="form-group">
+            <label class="form-control-label">Country</label>
+            <select class="form-control" name="country">
+                <option>USA</option>
+                <option>UK</option>
+                <option>UAE</option>
+                <option>US</option>
+                <option selected>BANGLADESH</option>
+                <option>INDIA</option>
+                </select>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label">Present Address</label>
+           <textarea class="form-control" name="present-address" id="" cols="30" rows="5"></textarea>
+        </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <legend>Other Info:</legend>
+        <div class="form-group">
+        <label class="form-control-label">Gender</label>
+        <div class="form-check">
+            <label class="form-check-label">
+            <input  type="radio" name="male" id="">Male 
+            </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                <input  type="radio" name="female" id="">FeMale 
+                </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                    <input type="radio" name="other" id="">Other 
+                    </label>
+                    </div>
+                    </div>
+    </fieldset>
+    <fieldset class="form-group">
+        <legend>Occupation</legend>
+        <div class="form-group">
+            <div class="form-check">
+                <label class="form-check-label">
+            <input type="checkbox" name="Designer" id="">Designer
+            </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+            <input type="checkbox" name="front-end developer" id="">Front-End Developer
+            </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+            <input type="checkbox" name="Software Developer" id="">Software Developer
+            </label>
+            </div>
+            </div>
+           </fieldset>
+    <button class="btn btn-info">Submit</button><br> <br>
+   
+</form>
+</div>
+
+
+    <!-- ---------------------------------script-------------------------------- -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
